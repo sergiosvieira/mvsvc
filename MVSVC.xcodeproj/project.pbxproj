@@ -16,22 +16,45 @@
 		0D5F29781771D80A0035B147 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F29771771D80A0035B147 /* Default.png */; };
 		0D5F297A1771D80A0035B147 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F29791771D80A0035B147 /* Default@2x.png */; };
 		0D5F297C1771D80A0035B147 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5F297B1771D80A0035B147 /* Default-568h@2x.png */; };
+		0D5F29851771D8500035B147 /* BRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F29841771D8500035B147 /* BRController.m */; };
+		0D5F29881771D9010035B147 /* BRTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F29871771D9010035B147 /* BRTableController.m */; };
+		0D5F298E1771D9A00035B147 /* BRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F298D1771D9A00035B147 /* BRModel.m */; };
+		0D700D561773F0A60041FC4B /* BRContants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D700D551773F0A60041FC4B /* BRContants.m */; };
+		0DA73F4117754356008FD1CD /* BRCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA73F4017754356008FD1CD /* BRCoreData.m */; };
+		0DA73F4417754472008FD1CD /* BRMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA73F4317754471008FD1CD /* BRMessages.m */; };
+		0DA73F48177544DB008FD1CD /* BRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA73F47177544DB008FD1CD /* BRView.m */; };
+		0DA73F4A177546F8008FD1CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA73F49177546F8008FD1CD /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D5F29621771D80A0035B147 /* WorkSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5F29621771D80A0035B147 /* MVSVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVSVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5F29651771D80A0035B147 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D5F29671771D80A0035B147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D5F29691771D80A0035B147 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0D5F296D1771D80A0035B147 /* WorkSchedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkSchedule-Info.plist"; sourceTree = "<group>"; };
+		0D5F296D1771D80A0035B147 /* MVSVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVSVC-Info.plist"; sourceTree = "<group>"; };
 		0D5F296F1771D80A0035B147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D5F29711771D80A0035B147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D5F29731771D80A0035B147 /* WorkSchedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		0D5F29731771D80A0035B147 /* MVSVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVSVC-Prefix.pch"; sourceTree = "<group>"; };
 		0D5F29741771D80A0035B147 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
 		0D5F29751771D80A0035B147 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
 		0D5F29771771D80A0035B147 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0D5F29791771D80A0035B147 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0D5F297B1771D80A0035B147 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0D5F29831771D8500035B147 /* BRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRController.h; path = mvsvc/BRController.h; sourceTree = "<group>"; };
+		0D5F29841771D8500035B147 /* BRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRController.m; path = mvsvc/BRController.m; sourceTree = "<group>"; };
+		0D5F29861771D9010035B147 /* BRTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRTableController.h; path = mvsvc/BRTableController.h; sourceTree = "<group>"; };
+		0D5F29871771D9010035B147 /* BRTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRTableController.m; path = mvsvc/BRTableController.m; sourceTree = "<group>"; };
+		0D5F298C1771D9A00035B147 /* BRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRModel.h; path = mvsvc/BRModel.h; sourceTree = "<group>"; };
+		0D5F298D1771D9A00035B147 /* BRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRModel.m; path = mvsvc/BRModel.m; sourceTree = "<group>"; };
+		0D700D541773F0A60041FC4B /* BRContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRContants.h; path = mvsvc/BRContants.h; sourceTree = "<group>"; };
+		0D700D551773F0A60041FC4B /* BRContants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRContants.m; path = mvsvc/BRContants.m; sourceTree = "<group>"; };
+		0DA73F3F17754356008FD1CD /* BRCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRCoreData.h; path = mvsvc/BRCoreData.h; sourceTree = "<group>"; };
+		0DA73F4017754356008FD1CD /* BRCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRCoreData.m; path = mvsvc/BRCoreData.m; sourceTree = "<group>"; };
+		0DA73F4217754471008FD1CD /* BRMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMessages.h; path = mvsvc/BRMessages.h; sourceTree = "<group>"; };
+		0DA73F4317754471008FD1CD /* BRMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMessages.m; path = mvsvc/BRMessages.m; sourceTree = "<group>"; };
+		0DA73F46177544DB008FD1CD /* BRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRView.h; path = mvsvc/BRView.h; sourceTree = "<group>"; };
+		0DA73F47177544DB008FD1CD /* BRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRView.m; path = mvsvc/BRView.m; sourceTree = "<group>"; };
+		0DA73F49177546F8008FD1CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA73F4A177546F8008FD1CD /* CoreData.framework in Frameworks */,
 				0D5F29661771D80A0035B147 /* UIKit.framework in Frameworks */,
 				0D5F29681771D80A0035B147 /* Foundation.framework in Frameworks */,
 				0D5F296A1771D80A0035B147 /* CoreGraphics.framework in Frameworks */,
@@ -51,7 +75,7 @@
 		0D5F29591771D80A0035B147 = {
 			isa = PBXGroup;
 			children = (
-				0D5F296B1771D80A0035B147 /* WorkSchedule */,
+				0D5F296B1771D80A0035B147 /* MSSVC */,
 				0D5F29641771D80A0035B147 /* Frameworks */,
 				0D5F29631771D80A0035B147 /* Products */,
 			);
@@ -60,7 +84,7 @@
 		0D5F29631771D80A0035B147 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D5F29621771D80A0035B147 /* WorkSchedule.app */,
+				0D5F29621771D80A0035B147 /* MVSVC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +92,7 @@
 		0D5F29641771D80A0035B147 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DA73F49177546F8008FD1CD /* CoreData.framework */,
 				0D5F29651771D80A0035B147 /* UIKit.framework */,
 				0D5F29671771D80A0035B147 /* Foundation.framework */,
 				0D5F29691771D80A0035B147 /* CoreGraphics.framework */,
@@ -75,23 +100,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0D5F296B1771D80A0035B147 /* WorkSchedule */ = {
+		0D5F296B1771D80A0035B147 /* MSSVC */ = {
 			isa = PBXGroup;
 			children = (
-				0D5F29741771D80A0035B147 /* BRAppDelegate.h */,
-				0D5F29751771D80A0035B147 /* BRAppDelegate.m */,
+				0D5F29821771D81B0035B147 /* mvsvc */,
 				0D5F296C1771D80A0035B147 /* Supporting Files */,
 			);
+			name = MSSVC;
 			path = WorkSchedule;
 			sourceTree = "<group>";
 		};
 		0D5F296C1771D80A0035B147 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D5F296D1771D80A0035B147 /* WorkSchedule-Info.plist */,
+				0D5F29741771D80A0035B147 /* BRAppDelegate.h */,
+				0D5F29751771D80A0035B147 /* BRAppDelegate.m */,
+				0D5F296D1771D80A0035B147 /* MVSVC-Info.plist */,
 				0D5F296E1771D80A0035B147 /* InfoPlist.strings */,
 				0D5F29711771D80A0035B147 /* main.m */,
-				0D5F29731771D80A0035B147 /* WorkSchedule-Prefix.pch */,
+				0D5F29731771D80A0035B147 /* MVSVC-Prefix.pch */,
 				0D5F29771771D80A0035B147 /* Default.png */,
 				0D5F29791771D80A0035B147 /* Default@2x.png */,
 				0D5F297B1771D80A0035B147 /* Default-568h@2x.png */,
@@ -99,12 +126,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0D5F29821771D81B0035B147 /* mvsvc */ = {
+			isa = PBXGroup;
+			children = (
+				0DA73F46177544DB008FD1CD /* BRView.h */,
+				0DA73F47177544DB008FD1CD /* BRView.m */,
+				0D5F29831771D8500035B147 /* BRController.h */,
+				0D5F29841771D8500035B147 /* BRController.m */,
+				0D5F29861771D9010035B147 /* BRTableController.h */,
+				0D5F29871771D9010035B147 /* BRTableController.m */,
+				0D5F298C1771D9A00035B147 /* BRModel.h */,
+				0D5F298D1771D9A00035B147 /* BRModel.m */,
+				0D700D541773F0A60041FC4B /* BRContants.h */,
+				0D700D551773F0A60041FC4B /* BRContants.m */,
+				0DA73F3F17754356008FD1CD /* BRCoreData.h */,
+				0DA73F4017754356008FD1CD /* BRCoreData.m */,
+				0DA73F4217754471008FD1CD /* BRMessages.h */,
+				0DA73F4317754471008FD1CD /* BRMessages.m */,
+			);
+			name = mvsvc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D5F29611771D80A0035B147 /* WorkSchedule */ = {
+		0D5F29611771D80A0035B147 /* MVSVC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D5F297F1771D80A0035B147 /* Build configuration list for PBXNativeTarget "WorkSchedule" */;
+			buildConfigurationList = 0D5F297F1771D80A0035B147 /* Build configuration list for PBXNativeTarget "MVSVC" */;
 			buildPhases = (
 				0D5F295E1771D80A0035B147 /* Sources */,
 				0D5F295F1771D80A0035B147 /* Frameworks */,
@@ -114,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = WorkSchedule;
+			name = MVSVC;
 			productName = WorkSchedule;
-			productReference = 0D5F29621771D80A0035B147 /* WorkSchedule.app */;
+			productReference = 0D5F29621771D80A0035B147 /* MVSVC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +177,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "sergio vieira";
 			};
-			buildConfigurationList = 0D5F295D1771D80A0035B147 /* Build configuration list for PBXProject "WorkSchedule" */;
+			buildConfigurationList = 0D5F295D1771D80A0035B147 /* Build configuration list for PBXProject "MVSVC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D5F29611771D80A0035B147 /* WorkSchedule */,
+				0D5F29611771D80A0035B147 /* MVSVC */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +215,13 @@
 			files = (
 				0D5F29721771D80A0035B147 /* main.m in Sources */,
 				0D5F29761771D80A0035B147 /* BRAppDelegate.m in Sources */,
+				0D5F29851771D8500035B147 /* BRController.m in Sources */,
+				0D5F29881771D9010035B147 /* BRTableController.m in Sources */,
+				0D5F298E1771D9A00035B147 /* BRModel.m in Sources */,
+				0D700D561773F0A60041FC4B /* BRContants.m in Sources */,
+				0DA73F4117754356008FD1CD /* BRCoreData.m in Sources */,
+				0DA73F4417754472008FD1CD /* BRMessages.m in Sources */,
+				0DA73F48177544DB008FD1CD /* BRView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,9 +299,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WorkSchedule/WorkSchedule-Prefix.pch";
-				INFOPLIST_FILE = "WorkSchedule/WorkSchedule-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "WorkSchedule/MVSVC-Prefix.pch";
+				INFOPLIST_FILE = "WorkSchedule/MVSVC-Info.plist";
+				PRODUCT_NAME = MVSVC;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,9 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WorkSchedule/WorkSchedule-Prefix.pch";
-				INFOPLIST_FILE = "WorkSchedule/WorkSchedule-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "WorkSchedule/MVSVC-Prefix.pch";
+				INFOPLIST_FILE = "WorkSchedule/MVSVC-Info.plist";
+				PRODUCT_NAME = MVSVC;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -265,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D5F295D1771D80A0035B147 /* Build configuration list for PBXProject "WorkSchedule" */ = {
+		0D5F295D1771D80A0035B147 /* Build configuration list for PBXProject "MVSVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D5F297D1771D80A0035B147 /* Debug */,
@@ -274,13 +329,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D5F297F1771D80A0035B147 /* Build configuration list for PBXNativeTarget "WorkSchedule" */ = {
+		0D5F297F1771D80A0035B147 /* Build configuration list for PBXNativeTarget "MVSVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D5F29801771D80A0035B147 /* Debug */,
 				0D5F29811771D80A0035B147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
